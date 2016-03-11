@@ -1,0 +1,20 @@
+Host public
+	User hjlee
+	Port 29418
+	Hostname review.tizen.org
+	IdentityFile ~/.ssh/id_rsa
+host score
+	User hj816.lee
+	Hostname 172.21.17.55
+	Port 29419
+	IdentityFile ~/.ssh/id_rsa
+Host spin
+	User hj816.lee
+	Port 23418
+	Hostname 172.21.17.105
+	IdentityFile ~/.ssh/id_rsa
+Host private
+	User hj816.lee
+	Port 21922
+	Hostname 172.21.17.105
+	Identityfile ~/.ssh/id_rsa
